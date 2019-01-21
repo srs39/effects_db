@@ -1,5 +1,3 @@
-CREATE DATABASE effects_db;
-
 CREATE TABLE Effects_Options(
   id VARCHAR(20) NOT NULL PRIMARY KEY,
   name VARCHAR(20),
@@ -15,7 +13,7 @@ CREATE TABLE Effects_Options(
 
 CREATE TABLE Pickup_Wah_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
-  pickup boolean,
+  pickup CHAR,
   pickup_type VARCHAR(20),
   wha_type VARCHAR(20),
   wah_min int,
@@ -23,7 +21,7 @@ CREATE TABLE Pickup_Wah_Options(
 
 CREATE TABLE Compressor_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
-  comp boolean,
+  comp CHAR,
   attack int,
   ratio int,
   threshold int,
@@ -39,7 +37,7 @@ CREATE TABLE Amp_Model_Cab_Options(
 
 CREATE TABLE  Equalizer_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
-  eq boolean,
+  eq CHAR,
   bass int,
   mid_frequency int,
   mid_level int,
@@ -47,7 +45,7 @@ CREATE TABLE  Equalizer_Options(
 
 CREATE TABLE Noisegate_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
-  gate boolean,
+  gate CHAR,
   gate_type VARCHAR(20),
   gate_attack int,
   gate_threshold int,
@@ -63,7 +61,7 @@ CREATE TABLE Mod_Effects_Options(
 
 CREATE TABLE Delay_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
-  delay boolean,
+  delay CHAR,
   delay_type VARCHAR(20),
   delay_time int,
   feedback int,
