@@ -2,15 +2,16 @@ CREATE DATABASE effects_db;
 
 CREATE TABLE Effects_Options(
   id VARCHAR(20) NOT NULL PRIMARY KEY,
-  name VARCHAR(20), pickup_wah boolean,
-  compressor boolean,
-  amp_model_cab boolean,
-  equalizer boolean,
-  noise_gate boolean,
-  mod_effects boolean,
-  delay boolean,
-  reverb boolean,
-  expression boolean);
+  name VARCHAR(20),
+  pickup_wah CHAR,
+  compressor CHAR,
+  amp_model_cab CHAR,
+  equalizer CHAR,
+  noise_gate CHAR,
+  mod_effects CHAR,
+  delay CHAR,
+  reverb CHAR,
+  expression CHAR);
 
 CREATE TABLE Pickup_Wah_Options(
   id VARCHAR(20) FOREIGN KEY REFERENCES Effects_Options(id),
