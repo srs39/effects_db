@@ -4,4 +4,8 @@ CREATE TABLE Compressor_Options(
   attack int,
   ratio int,
   threshold int,
-  gain int);
+  gain int,
+    FOREIGN KEY fk_id(id)
+    REFERENCES Effects_Options(id)
+    ON UPDATE CASCADE
+    ON DELETE RESTRICT);

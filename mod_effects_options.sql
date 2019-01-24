@@ -4,4 +4,8 @@ CREATE TABLE Mod_Effects_Options(
   parameter_1 int,
   parameter_2 int,
   parameter_3 int,
-  mod_level int);
+  mod_level int,
+    FOREIGN KEY fk_id(id)
+    REFERENCES Effects_Options(id)
+    ON UPDATE CASCADE
+    ON DELETE RESTRICT);
