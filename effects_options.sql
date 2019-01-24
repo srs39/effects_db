@@ -1,3 +1,6 @@
+CREATE DATABASE if not exists rp300a;
+
+
 CREATE TABLE Effects_Options(
   id VARCHAR(4) NOT NULL PRIMARY KEY,
   name VARCHAR(6),
