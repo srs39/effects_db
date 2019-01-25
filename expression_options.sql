@@ -20,3 +20,18 @@ INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN) VALUES ("AU03", 
 INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN) VALUES ("AU04", "PEDAL", "ASSIGN 0F");
 
 INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN) VALUES ("AU05", "PEDAL", "VOLPRE");
+
+INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN, min_value, max_value)
+VALUES ("AU06", "PEDAL", "FXLEVEL", 0, 99);
+
+INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN, min_value, max_value)
+VALUES ("AU07", "PEDAL", "RVBLVL", 0, 35);
+
+INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN, min_value, max_value)
+VALUES ("AU08", "PEDAL", "FXLEVEL", 0, 99);
+
+INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN, min_value, max_value)
+VALUES ("AU09", "PEDAL", "DLYLVL", 0, 99);
+
+INSERT INTO Expression_Options(ID, PEDAL_LFO, PARAMETER_ASSIGN, min_value, max_value)
+VALUES ("AU09", "PEDAL", "DECAY", 1, 99);
