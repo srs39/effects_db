@@ -26,3 +26,9 @@ VALUES ("AU13", 'Y', "SC>HUM", "BOUTIQ OFF", 55, 23);
 
 INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wha_type, wah_min, wah_max)
 VALUES ("AU16", 'Y', "SC>HUM", "BOUTIQ OFF", 1, 99);
+
+INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wha_type, wah_min, wah_max)
+VALUES ("AU19", 'Y', "HUM>SC", "FULRNG ON", 66, 66);
+
+INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wha_type, wah_min, wah_max)
+VALUES ("AU20", 'Y', "HUM>SC", "FULRNG OFF", 22, 16);

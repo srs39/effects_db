@@ -32,9 +32,6 @@ INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
  VALUES ("AU12", 'Y', 'F', "oo-1", 99, 6);
 
 INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
- VALUES ("AU12", 'Y', 'F', "oo-1", 99, 6);
-
-INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
  VALUES ("AU13", 'Y', 'F', "10-1", 33, 3);
 
 INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
@@ -42,3 +39,9 @@ INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
 
 INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
  VALUES ("AU16", 'Y', 'S', "20-1", 80, 4);
+
+INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
+ VALUES ("AU17", 'Y', 'M', "3.0-1", 1, 5);
+
+INSERT INTO Compressor_Options (id, comp, attack, ratio, threshold, gain)
+ VALUES ("AU19", 'Y', 'S', "3.0-1", 66, 6);

@@ -48,3 +48,13 @@ INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, mod_level)
 
 INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, mod_level)
  VALUES ("AU16", "DETUNE 14", -7, 50);
+
+INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, mod_level)
+ VALUES ("AU17", "PITCH 15", 7, 50);
+
+INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, PARAMETER_2)
+ VALUES ("AU19", "TREMLO 6", 66, 66);
+
+INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, PARAMETER_2, PARAMETER_3, mod_level)
+ VALUES ("AU20", "FLANGE 2", 7, 20, 45, 60);
+
