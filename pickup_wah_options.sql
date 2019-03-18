@@ -41,3 +41,9 @@ VALUES ("AU23", 'Y', "SC>HUM", "WAH OFF", 1, 99);
 
 INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wah_type, wah_min, wah_max)
 VALUES ("AU24", 'Y', "SC>HUM", "WAH OFF", 1, 99);
+
+INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wah_type, wah_min, wah_max)
+VALUES ("AU25", 'Y', "HUM>SC", "CRY ON", 1, 99);
+
+INSERT INTO Pickup_Wah_Options(id, pickup, wah_type, wah_min, wah_max)
+VALUES ("AU29", 'N', "FULRNG ON", 99, 99);
