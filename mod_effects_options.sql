@@ -78,3 +78,9 @@ INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, PARAMETER_2, mod_leve
  
   INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, PARAMETER_2, PARAMETER_3, mod_level)
  VALUES ("AU35", "FLANGE 2", 7, 12, 69, 20);
+ 
+   INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, PARAMETER_2, PARAMETER_3, mod_level)
+ VALUES ("AU36", "FLANGE 2", 7, 20, 45, 60);
+ 
+ INSERT INTO Mod_Effects_Options(ID, MOD_TYPE, PARAMETER_1, mod_level)
+ VALUES ("37", "WHAMMY 16", 1, 99);

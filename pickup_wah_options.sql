@@ -53,3 +53,6 @@ VALUES ("AU31", 'N', "CRY ON", 1, 99);
 
 INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wah_type, wah_min, wah_max)
 VALUES ("AU32", 'Y', "HUM>SC", "CRY OFF", 1, 99);
+
+INSERT INTO Pickup_Wah_Options(id, pickup, pickup_type, wah_type, wah_min, wah_max)
+VALUES ("AU36", 'Y', "HUM>SC", "CRY OFF", 1, 99);
